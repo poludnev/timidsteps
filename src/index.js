@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-fetch('http://localhost:8000/api/homepage/background')
+fetch('https://tested-beaded-galley.glitch.me/api/homepage/background')
   .then((response) => response.json())
   .then((data) => {
     // console.log(data);
