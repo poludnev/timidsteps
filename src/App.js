@@ -194,7 +194,7 @@ class App extends React.Component {
     console.log(formData);
     console.log(email);
 
-    fetch('http://localhost:8000/api/homepage/background', {
+    fetch('https://tested-beaded-galley.glitch.me/api/homepage/background', {
       method: 'POST',
       body: formData,
     })
