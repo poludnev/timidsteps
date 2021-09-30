@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/timidsteps/static/css/main.a617e044.chunk.css",
-    "main.js": "/timidsteps/static/js/main.8e81e4c9.chunk.js",
-    "main.js.map": "/timidsteps/static/js/main.8e81e4c9.chunk.js.map",
-    "runtime-main.js": "/timidsteps/static/js/runtime-main.2c07b3ac.js",
-    "runtime-main.js.map": "/timidsteps/static/js/runtime-main.2c07b3ac.js.map",
-    "static/js/2.74771156.chunk.js": "/timidsteps/static/js/2.74771156.chunk.js",
-    "static/js/2.74771156.chunk.js.map": "/timidsteps/static/js/2.74771156.chunk.js.map",
-    "static/js/3.5ea38a53.chunk.js": "/timidsteps/static/js/3.5ea38a53.chunk.js",
-    "static/js/3.5ea38a53.chunk.js.map": "/timidsteps/static/js/3.5ea38a53.chunk.js.map",
+    "main.css": "/timidsteps/static/css/main.7e90ee78.chunk.css",
+    "main.js": "/timidsteps/static/js/main.1d393890.chunk.js",
+    "main.js.map": "/timidsteps/static/js/main.1d393890.chunk.js.map",
+    "runtime-main.js": "/timidsteps/static/js/runtime-main.dab88604.js",
+    "runtime-main.js.map": "/timidsteps/static/js/runtime-main.dab88604.js.map",
+    "static/css/2.f2512455.chunk.css": "/timidsteps/static/css/2.f2512455.chunk.css",
+    "static/js/2.962b78c4.chunk.js": "/timidsteps/static/js/2.962b78c4.chunk.js",
+    "static/js/2.962b78c4.chunk.js.map": "/timidsteps/static/js/2.962b78c4.chunk.js.map",
+    "static/js/3.154cba86.chunk.js": "/timidsteps/static/js/3.154cba86.chunk.js",
+    "static/js/3.154cba86.chunk.js.map": "/timidsteps/static/js/3.154cba86.chunk.js.map",
     "index.html": "/timidsteps/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/timidsteps/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.74771156.chunk.js.LICENSE.txt": "/timidsteps/static/js/2.74771156.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/timidsteps/static/media/logo.6ce24c58.svg"
+    "static/css/2.f2512455.chunk.css.map": "/timidsteps/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.7e90ee78.chunk.css.map": "/timidsteps/static/css/main.7e90ee78.chunk.css.map",
+    "static/js/2.962b78c4.chunk.js.LICENSE.txt": "/timidsteps/static/js/2.962b78c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c07b3ac.js",
-    "static/js/2.74771156.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.8e81e4c9.chunk.js"
+    "static/js/runtime-main.dab88604.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.962b78c4.chunk.js",
+    "static/css/main.7e90ee78.chunk.css",
+    "static/js/main.1d393890.chunk.js"
   ]
 }
