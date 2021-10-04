@@ -4,9 +4,26 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import temporaryData from './tempSources.js';
+// import { reject } from 'lodash';
 
-fetch('https://23.111.206.12:8000/api/homepage/background')
-  .then((response) => response.json())
+const getSources = (source = 'server') => {
+  switch (source) {
+    case 'server':
+      return fetch('http://localhost:8000/api/homepage/background').then((response) =>
+        response.json(),
+      );
+    case 'local':
+      return new Promise((resolve, reject) => {
+        resolve(temporaryData);
+      });
+
+    default:
+      throw new Error('can not define data source');
+  }
+};
+
+getSources('local')
   .then((data) => {
     // console.log(data);
     const {
