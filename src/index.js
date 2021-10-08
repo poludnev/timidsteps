@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import temporaryData from './tempSources.js';
-// import { reject } from 'lodash';
 
 const getSources = (source = 'server') => {
   switch (source) {
@@ -14,7 +13,7 @@ const getSources = (source = 'server') => {
         response.json(),
       );
     case 'local':
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         resolve(temporaryData);
       });
 
@@ -25,7 +24,6 @@ const getSources = (source = 'server') => {
 
 getSources('local')
   .then((data) => {
-    // console.log(data);
     const {
       backgrounds,
       texts: { introText, navElements, footerElements, popupData, buttonTexts },
@@ -75,7 +73,5 @@ getSources('local')
     );
   })
   .catch((e) => console.log('errors', e));
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

@@ -3,6 +3,7 @@ import { Modal } from 'react-bootstrap/';
 import { Button } from 'react-bootstrap/';
 import { Form } from 'react-bootstrap/';
 import parseStringToHTML from 'html-react-parser';
+import './modal.styles.css';
 // import _ from 'lodash';
 
 // const parser = new DOMParser();
@@ -104,7 +105,7 @@ export const MyModal = (props) => {
           </Form>
         ) : (
           <React.Fragment>
-            <h4>{bodyHeader}</h4>
+            <h3>{bodyHeader}</h3>
             {parseStringToHTML(bodyParagraphs)}
           </React.Fragment>
         )}

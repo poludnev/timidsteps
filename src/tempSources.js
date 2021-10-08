@@ -2,53 +2,66 @@ import _ from 'lodash';
 
 const backendData = {
   backgrounds: [
-    { id: _.uniqueId(), link: './public/img/bg-pic-1.jpg' },
-    { id: _.uniqueId(), link: './public/bg-pic-2.jpg' },
+    {
+      id: _.uniqueId(),
+      link: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/bg-pic-1.jpg',
+    },
+    {
+      id: _.uniqueId(),
+      link: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/bg-pic-2.jpg',
+    },
   ],
   texts: {
     introText: [
-      '"A journey of a thousand miles begins with a single step".',
+      'One old Chinese said, "A journey of a thousand miles begins with a single step".',
       'My journey started some time ago with a timid step and there is no end in sight.',
     ],
     navElements: [
       { id: _.uniqueId(), link: 'https://poludnev.github.io/blog', text: 'my blog' },
       { id: _.uniqueId(), link: 'https://poludnev.github.io/cv', text: 'about me' },
+      // { id: _.uniqueId(), link: 'https://poludnev.github.io/cv', text: 'cv' },
+      // { id: _.uniqueId(), link: 'https://poludnev.github.io/cv', text: 'projects' },
     ],
     footerElements: [
       {
         id: _.uniqueId(),
         name: 'email',
         link: 'roman@gmail.com',
-        src: '../public/img/sm-logo-mail-wt-256.png',
-        hoverSrc: '../public/img/sm-logo-mail-wt-256.png',
+        src: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-mail-wt-256.png',
+        hoverSrc:
+          'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-mail-wt-256.png',
       },
       {
         id: _.uniqueId(),
         name: 'insta',
         link: 'https://www.instagram.com/poludnev.roman/',
-        src: '../public/img/sm-logo-inst-wt-256.png',
-        hoverSrc: '../public/img/sm-logo-inst-bw-256.png',
+        src: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-inst-wt-256.png',
+        hoverSrc:
+          'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-inst-bw-256.png',
       },
       {
         id: _.uniqueId(),
         name: 'fb',
         link: 'https://www.facebook.com/poludnev.roman',
-        src: '../public/img/sm-logo-fb-wt-256.png',
-        hoverSrc: './public/img/sm-logo-fb-bw-256.png',
+        src: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-fb-wt-256.png',
+        hoverSrc:
+          'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-fb-bw-256.png',
       },
       {
         id: _.uniqueId(),
         name: 'lnkd',
         link: 'https://www.linkedin.com/in/roman-poludnev-0b3592a7/',
-        src: '../public/img/sm-logo-lnkdin-wt-256.png',
-        hoverSrc: './public/img/sm-logo-lnkdin-bw-256.png',
+        src: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-lnkdin-wt-256.png',
+        hoverSrc:
+          'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-lnkdin-bw-256.png',
       },
       {
         id: _.uniqueId(),
         name: 'twit',
         link: 'https:/twitter.com/Roman71439308',
-        src: '../public/img/sm-logo-twtr-wt-256.png',
-        hoverSrc: '../public/img/sm-logo-twtr-bw-256.png',
+        src: 'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-twtr-wt-256.png',
+        hoverSrc:
+          'https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/sm-logo-twtr-bw-256.png',
       },
     ],
     popupData: {
@@ -72,8 +85,8 @@ const backendData = {
             header: "I'm going to be a programmer and I need your help.",
             p: `<p>
                 <img
-                class="w200px float-start px-1 m-1"
-                src='https://tested-beaded-galley.glitch.me/img/ava-1.jpg'
+                class="w200px float-start"
+                src='https://raw.githubusercontent.com/poludnev/timidsteps/main/public/img/ava-1.jpg'
                 alt='my ava'>
                 </img>
               <p>

@@ -13,11 +13,11 @@ export const Navbar = (props) => {
 
   return (
     <div className='Navbar front-nav-bar d-flex justify-content-center'>
-      <ul className='nav navbar list-group list-group-horizontal m-0'>
+      <ul className='nav navbar list-group list-group-horizontal'>
         {navElements.allIDs.map((id) => {
           const isHovered = hoveredElementId === id;
           const hover = navElements.allIDs.includes(hoveredElementId) && isHovered;
-          const className = classNames('list-group-item', { hover });
+          const className = classNames('list-group-item px-3 px-md-3', { hover });
           const link = navElements.byID[id].link;
           const text = navElements.byID[id].text;
 

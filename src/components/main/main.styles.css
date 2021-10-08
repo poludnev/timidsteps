@@ -1,1 +1,9 @@
+.Main {
+  margin: 0;
+}
 
+@media (max-height: 319px) {
+  .Main {
+    margin-bottom: 3rem;
+  }
+}

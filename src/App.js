@@ -187,12 +187,12 @@ class App extends React.Component {
   };
   submitHandler = (e) => {
     e.preventDefault();
-    console.log('submit handler started');
+    // console.log('submit handler started');
     const formData = new FormData(e.target);
     const email = formData.get('email');
-    console.log(e.target);
-    console.log(formData);
-    console.log(email);
+    // console.log(e.target);
+    // console.log(formData);
+    // console.log(email);
 
     fetch('https://tested-beaded-galley.glitch.me/api/homepage/background', {
       method: 'POST',

@@ -22,10 +22,14 @@ export const Footer = (props) => {
 
   return (
     <div className='Footer'>
-      <div className='social-media-bar m-2 m-md-3 m-lg-5'>
+      <div className='social-media-bar mt-1  d-flex justify-content-center'>
         {footerElements.allIDs.map((id) => {
           const isHovered = hoveredElementId === id;
-          const spanClassNames = classNames(`m-0 p-${isHovered ? 0 : 1}`, 'mx-md=2');
+          const spanClassNames = classNames(
+            `m-0 py-${isHovered ? 0 : 1}`,
+            // `m-md-${isHovered ? 1 : 2}`,
+            `px-${isHovered ? 1 : 2}`,
+          );
           const hover = footerElements.allIDs.includes(hoveredElementId) && isHovered;
           const unhover = footerElements.allIDs.includes(hoveredElementId) && !hover;
           const imgClassNames = classNames({ hover, unhover });
@@ -34,7 +38,7 @@ export const Footer = (props) => {
           const src = footerElements.byID[id].src;
 
           return (
-            <span
+            <div
               className={spanClassNames}
               style={{ margin: 0 }}
               type='button'
@@ -44,7 +48,7 @@ export const Footer = (props) => {
               onClick={listHandler({ id, link, name })}
             >
               <img src={src} alt={name} className={imgClassNames} />
-            </span>
+            </div>
           );
         })}
       </div>

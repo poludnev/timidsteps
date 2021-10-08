@@ -6,7 +6,7 @@ export const Heading = (props) => {
 
   return (
     <div className='Heading'>
-      <h1 className='mt-2'>{headingText}</h1>
+      <h1 className=''>{headingText}</h1>
     </div>
   );
 };
